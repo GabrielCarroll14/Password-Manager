@@ -6,7 +6,7 @@ Usage Instructions
 Follow the steps below to use Py Password Manager on your system:
 Installation
 
-    Ensure that Python is installed on your machine. If not, download and install Python from python.org.
+    Ensure that Python is installed on your machine. If not, download and install Python from https://www.python.org/downloads/
 
     Clone or download the project repository to your local machine.
 
@@ -45,10 +45,10 @@ Usage
 
     View existing passwords to retrieve stored information.
 
-    To quit the application, enter 'q' when prompted for an action.
+    To quit the application, enter "q" when prompted for an action.
 
 Support and Assistance
 
-For further assistance, check the support folder within the project repository. Real-time help is also available on the Discord server: Password Manager Discord Server.
+For further assistance, check the support folder within the project repository. Real-time help is also available on the Discord server: https://discord.gg/A6NaPSHnCU.
 
 Note: This is a basic password manager script and may not cover all security considerations expected in a production-level application. Use it at your own discretion.
