@@ -22,3 +22,41 @@ def create():
         # Write the variable to the file on a new line
         file.write (pwd + "\n")
         
+# Print intro to user
+print ("Welcome to password manager! ")
+print ("When adding passwords, first add the service it is used for then the password its self. ")
+
+# Example password
+print ("Example: ")
+print ("Apple.com | Randompassword1 ")
+
+# Create a while loop
+while True:
+    
+    # Ask the user if they would like to read or create passwords
+    choice = input ("Would you like to add a new password, or view passwords? If you would like to quit press Q. (add, view) ")
+    
+    # Quit the app if user chose "q"
+    if choice == "q":
+        break
+    
+    # Run the create function if user has decided to add passwords
+    if choice == "add":
+        create()
+        
+    # Run the read function if user has decided to vuiw passwords
+    if choice == "view":
+        read()
+        
+
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
