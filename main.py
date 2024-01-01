@@ -22,13 +22,19 @@ def create():
         # Write the variable to the file on a new line
         file.write (pwd + "\n")
         
-# Print intro to user
-print ("Welcome to password manager! ")
-print ("When adding passwords, first add the service it is used for then the password its self. ")
+# Create the function for printing the intro
+def print_intro():
+    print ("Welcome to password manager! ")
+    print ("When adding passwords, first add the service it is used for then the password its self. ")
+    
+# Create the example function
+def example():
+    print ("Example: ")
+    print ("randomwebsite.com | Randompassword1! ")
 
-# Print example password
-print ("Example: ")
-print ("randomwebsite.com | Randompassword1! ")
+# Use the "example" and "print_intro functions"
+print_intro
+example
 
 # Create a while loop
 while True:
@@ -51,4 +57,3 @@ while True:
     # Break the loop if the user gives a invalid input    
     else:
         print ("Invalin Input: Please Retry. ")
-        break
