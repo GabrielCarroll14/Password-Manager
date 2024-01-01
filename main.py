@@ -46,17 +46,4 @@ while True:
         
     # Run the read function if user has decided to vuiw passwords
     if choice == "view":
-        read()
-        
-
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        
+        read()      
