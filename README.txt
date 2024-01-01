@@ -1,4 +1,4 @@
-Py Password Manager
+Py Password Manager:
 
 Py Password Manager is a simple Python script designed to function as a basic password manager. The script allows users to add new passwords along with the corresponding service information and view existing passwords. The passwords are stored in a text file named "passwords.txt" in plain text format.
 Usage Instructions
@@ -11,6 +11,7 @@ Installation
     Clone or download the project repository to your local machine.
 
 Running the Application
+
 Windows 11
 
     Locate the "Password-Manager" folder on your system.
