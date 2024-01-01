@@ -26,9 +26,9 @@ def create():
 print ("Welcome to password manager! ")
 print ("When adding passwords, first add the service it is used for then the password its self. ")
 
-# Example password
+# Print example password
 print ("Example: ")
-print ("Apple.com | Randompassword1 ")
+print ("randomwebsite.com | Randompassword1! ")
 
 # Create a while loop
 while True:
@@ -41,9 +41,14 @@ while True:
         break
     
     # Run the create function if user has decided to add passwords
-    if choice == "add":
+    elif choice == "add":
         create()
         
     # Run the read function if user has decided to vuiw passwords
-    if choice == "view":
-        read()      
+    elif choice == "view":
+        read()
+    
+    # Break the loop if the user gives a invalid input    
+    else:
+        print ("Invalin Input: Please Retry. ")
+        break
